@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res-auto">
+<!-- myapp 이름의 xml네임스페이스 지정	아래에 이용. -->
+<!--	항상 표시 always -->
+	<item android:title="하나"
+		android:icon="@android:drawable/ic_menu_add" 
+		myapp:showAsAction="always|withText"
+		/>
+<!--	ifRoom 공간있을시에 표시 -->
+	<item android:title="둘"
+		android:icon="@android:drawable/ic_menu_edit"
+		myapp:showAsAction="ifRoom"
+		/>
+	<item android:title="셋"
+		myapp:showAsAction="ifRoom"
+		/>
+	<item android:title="넷"
+		myapp:showAsAction="ifRoom"
+		/>
+	<item android:title="다섯"
+		myapp:showAsAction="ifRoom"
+		/>
+	<item android:title="여섯" />
+</menu>

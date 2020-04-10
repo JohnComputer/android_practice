@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout 배경 설정 및 fragment 배치 <세로모드> id 꼭 지정!! -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- PlanetListFragment 클래스에서 생성된 리스트 출력  -->
+    <fragment
+        class="com.example.multipane.MainActivity$PlanetListFragment"
+        android:id="@+id/planet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+

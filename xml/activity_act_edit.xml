@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout 생성 / 사이즈 부모에 맞춤 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActEdit">
+<!-- 텍스트 입력 상자 생성 / id = stredit -->
+    <EditText
+        android:id="@+id/stredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<!-- 버튼 생성 / id = btnok / 버튼 클릭시 mOnclick 호출 / 텍스트 = Ok -->
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="OK"
+        />
+    <!-- 버튼 생성 / id = btnok / 버튼 클릭시 mOnclick 호출 / 텍스트 = Cancel -->
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Cancel"
+        />
+</LinearLayout>

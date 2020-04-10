@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment 생성 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffff00">
+<!--    txtcounter 아이디의 TextView상자 생성 -->
+    <TextView
+        android:id="@+id/txtcounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:text="0"/>
+<!--    값 증가시킬 버튼 생성 -->
+    <Button
+        android:id="@+id/btnincrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="increase"/>
+
+</LinearLayout>

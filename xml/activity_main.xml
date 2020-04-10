@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout 생성 / 수직방향 배치 / layout 높이와 넓이 부모에 맞게 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Text생성 / id = text / 넓이 부모에 맞춤 / 높이 콘텐츠 크기에 맞춤 -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample"
+        />
+    <!-- 버튼 생성 / id = btnedit / 텍스트 = edit / 클릭시 mOnclick 호출 -->
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Edit"
+        />
+
+</LinearLayout>
